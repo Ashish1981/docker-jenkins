@@ -1,5 +1,6 @@
 #! /bin/bash -e
-
+export JAVA_HOME=/usr/lib/jvm/jdk-13.0.2
+export PATH=/usr/lib/jvm/jdk-13.0.2/bin:$PATH
 : "${JENKINS_WAR:="/usr/share/jenkins/jenkins.war"}"
 : "${JENKINS_HOME:="/var/jenkins_home"}"
 : "${COPY_REFERENCE_FILE_LOG:="${JENKINS_HOME}/copy_reference_file.log"}"
